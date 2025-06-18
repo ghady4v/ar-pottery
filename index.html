@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>من اليد إلى القلب</title>
   <style>
     body {
@@ -10,47 +10,53 @@
       background-image: url('https://i.postimg.cc/W41YpBtp/IMG-2732.jpg');
       background-repeat: no-repeat;
       background-position: center;
-      background-size: 700px; /* تكبير الصورة الخلفية */
+      background-size: 350px auto;
       background-attachment: fixed;
+      opacity: 0.1;
       font-family: 'Arial', sans-serif;
-      text-align: center;
-      color: #3c2a1e;
-      padding: 50px;
       margin: 0;
+      padding: 170px 30px 30px 30px; /* نزّلنا الكلام شوي */
+      color: #3c2a1e;
+      text-align: center;
+      position: relative;
     }
-
-    h1 {
-      font-size: 18px;
-      margin-bottom: 30px;
-      line-height: 1.8;
-    }
-
-    a.button {
+    .content {
+      position: relative;
+      opacity: 1;
+      background: rgba(255, 255, 255, 0.85);
+      padding: 25px 30px;
+      border-radius: 10px;
       display: inline-block;
-      margin-top: 30px;
-      padding: 12px 24px;
-      background-color: #8B4513;
-      color: white;
-      text-decoration: none;
-      font-size: 16px;
-      border-radius: 8px;
-      transition: background-color 0.3s;
+      max-width: 600px;
+      margin: 0 auto;
+      box-shadow: 0 0 15px rgba(60, 42, 30, 0.2);
     }
-
-    a.button:hover {
-      background-color: #A0522D;
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 0.5em;
+      font-weight: bold;
+      color: #6b4f32;
+    }
+    p {
+      font-size: 1.25em;
+      line-height: 1.6;
+      margin-bottom: 1.2em;
+    }
+    .hashtag {
+      font-weight: bold;
+      font-size: 1.3em;
+      color: #a67543;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
-  <h1>
-    كل قطعة فخار تحمل بين خطوطها قصة صُنعت بكل حب واهتمام.<br>
-    مع كل قطعة، تفتح لك الفرصة لاكتشاف أدواتنا الحرفية الفريدة،<br>
-    وتجرب دورات تجريبية عن بُعد، لتبدأ رحلة إبداعك الخاصة.<br><br>
-    #من_اليد_الى_القلب
-  </h1>
-  <a class="button" href="https://api.echo3d.com/webar?key=late-queen-7686&entry=28c9131e-ae13-458b-8c4b-8577a8832324" target="_blank">
-    استمتع بتجربة الواقع المعزز
-  </a>
+  <div class="content">
+    <p>كل قطعة فخار تحمل بين خطوطها قصة صنعت بكل حب واهتمام.</p>
+    <p>مع كل قطعة، تفتح لك الفرصة لاكتشاف أدواتنا الحرفية الفريدة،</p>
+    <p>وتجرب دورات تجريبية عن بُعد، لتبدأ رحلة إبداعك الخاصة.</p>
+    <h1>من اليد إلى القلب</h1>
+    <p class="hashtag">#من_اليد_الى_القلب</p>
+  </div>
 </body>
 </html>
